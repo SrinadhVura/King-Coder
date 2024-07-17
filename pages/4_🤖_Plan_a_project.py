@@ -87,7 +87,7 @@ with conta:
         "Java",
     ])
     add_tech = st.text_area("Write down any additional technologies or languages you'd like to use in the project (if not in the list above)")
-    submit = st.button("Code the project")
+    submit = st.button("Plan the project")
     center_button(0)
 if submit:
     data = {
